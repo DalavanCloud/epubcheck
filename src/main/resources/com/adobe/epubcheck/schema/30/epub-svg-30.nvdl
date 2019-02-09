@@ -3,11 +3,11 @@
 	<mode name="svg">
 		<namespace ns="http://www.w3.org/2000/svg">
 			<validate schema="epub-svg-30.rnc" schemaType="application/relax-ng-compact-syntax"
-				useMode="attach"/>
-			<validate schema="epub-svg-30.sch" useMode="attach"/>
+				useMode="allowForeignNS"/>
+			<validate schema="epub-svg-30.sch" useMode="allowForeignNS"/>
 		</namespace>
 	</mode>
-	<mode name="attach">
+	<mode name="allowForeignNS">
 		<namespace ns="http://www.w3.org/1999/xhtml">
 			<attach/>
 		</namespace>
